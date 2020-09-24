@@ -4,6 +4,12 @@ This application can be used to perform resets on USB devices.  This README desc
 
 Credit to Alan Stern for developing this program, as retrieved from: http://marc.info/?l=linux-usb&m=121459435621262&w=2
 
+## Release
+
+A couple of deb packages have been built as releases in this repo
+
+## Compile Instructions
+
 The following sequence is adequate to execute the program:
 
 1. Compile the program:
