@@ -1,0 +1,5 @@
+usbreset (0.0.1-1) buster; urgency=medium
+
+  * Initial packaging work with dpkg-buildpackage.
+
+ -- Matthew Hilton <matthilton2005@gmail.com>  Wed, 23 Sep 2020 22:54:24 +0000

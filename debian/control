@@ -1,0 +1,11 @@
+Source: usbreset
+Section: devel
+Priority: optional
+Maintainer: Matthew Hilton <matthilton2005@gmail..com>
+Build-Depends: build-essential, debhelper (>= 9)
+
+Package: usbreset
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: USBReset
+ Send a USB port reset to a USB device
