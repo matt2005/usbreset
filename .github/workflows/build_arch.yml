@@ -39,10 +39,14 @@ jobs:
             distro: buster
           - arch: aarch64
             distro: buster
+          - arch: amd64
+            distro: buster
+          - arch: i386
+            distro: buster
 
     steps:
       - uses: actions/checkout@v2.3.3
-      - uses: uraimo/run-on-arch-action@v2.0.5
+      - uses: matt2005/run-on-arch-action@v2.0.5.1 #uraimo/run-on-arch-action@v2.0.5
         name: Build
         id: build
         with:
